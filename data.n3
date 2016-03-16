@@ -1,0 +1,73 @@
+update=insert data {
+
+<http://demo/zoia> <http://test/predicates/name> "Zoia Horn" .
+<http://demo/zoia> <http://test/predicates/bornIn> "Odessa, Ukraine" .
+
+<http://demo/turing> <http://test/predicates/name> "Alan Mathison Turing" .
+<http://demo/turing> <http://test/predicates/bornIn> "Maida Vale, London, England" .
+
+
+<http://demo/jamesDean> <http://test/predicates/playedIn> <http://demo/eastOfEden> .
+<http://demo/jamesDean> <http://test/predicates/playedIn> <http://demo/giant> .
+<http://demo/jamesDean> <http://test/predicates/playedIn> <http://demo/rebelWithoutACause> .
+
+<http://demo/rebelWithoutACause> <http://test/predicates/directedBy> <http://demo/nicholasRay> .
+<http://demo/giant> <http://test/predicates/directedBy> <http://demo/georgeStevens> .
+<http://demo/giant> <http://test/predicates/directedBy> <http://demo/fredGuiol> .
+<http://demo/eastOfEden> <http://test/predicates/directedBy> <http://demo/eliaKazan> .
+
+<http://demo/annDoran> <http://test/predicates/playedIn> <http://demo/rebelWithoutACause> .
+<http://demo/annDoran> <http://test/predicates/type> <http://demo/woman> .
+
+<http://demo/natalieWood> <http://test/predicates/playedIn> <http://demo/rebelWithoutACause> .
+<http://demo/natalieWood> <http://test/predicates/type> <http://demo/woman> .
+
+<http://demo/julieHarris> <http://test/predicates/playedIn> <http://demo/eastOfEden> .
+<http://demo/julieHarris> <http://test/predicates/type> <http://demo/woman> .
+
+<http://demo/carrollBaker> <http://test/predicates/playedIn> <http://demo/giant> .
+<http://demo/carrollBaker> <http://test/predicates/type> <http://demo/woman> .
+
+<http://demo/rockHudson> <http://test/predicates/playedIn> <http://demo/giant> .
+<http://demo/rockHudson> <http://test/predicates/type> <http://demo/man> .
+
+
+<http://demo/mammal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://demo/animal> .
+
+<http://demo/dog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://demo/mammal> .
+<http://demo/cat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://demo/mammal> .
+
+
+<http://demo/joe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://demo/person> .
+<http://demo/joe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://demo/blogger> .
+<http://demo/joe> <http://test/predicates/age> "40" .
+
+<http://demo/jane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://demo/person> .
+<http://demo/jane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://demo/blogger> .
+<http://demo/jane> <http://test/predicates/age> "40" .
+
+<http://demo/jim> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://demo/person> .
+<http://demo/jim> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://demo/blogger> .
+
+<http://blog/1> <http://test/predicates/title> "blog one by joe" .
+<http://blog/1> <http://test/predicates/author> <http://demo/joe> .
+<http://blog/2> <http://test/predicates/title> "blog two by joe" .
+<http://blog/2> <http://test/predicates/author> <http://demo/joe> .
+<http://blog/3> <http://test/predicates/title> "blog three by joe" .
+<http://blog/3> <http://test/predicates/author> <http://demo/joe> .
+
+<http://blog/4> <http://test/predicates/title> "blog one by jane" .
+<http://blog/4> <http://test/predicates/author> <http://demo/jane> .
+<http://blog/5> <http://test/predicates/title> "blog two by jane" .
+<http://blog/5> <http://test/predicates/author> <http://demo/jane> .
+<http://blog/6> <http://test/predicates/title> "blog three by jane" .
+<http://blog/6> <http://test/predicates/author> <http://demo/jane> .
+<http://blog/7> <http://test/predicates/title> "blog four by jane" .
+<http://blog/7> <http://test/predicates/author> <http://demo/jane> .
+
+<http://blog/8> <http://test/predicates/title> "blog one by jim" .
+<http://blog/8> <http://test/predicates/author> <http://demo/jim> .
+<http://blog/9> <http://test/predicates/title> "blog two by jim" .
+<http://blog/9> <http://test/predicates/author> <http://demo/jim> .
+
+}

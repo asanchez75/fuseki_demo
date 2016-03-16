@@ -1,0 +1,6 @@
+update=insert data {
+
+  <http://demo/book1> <http://purl.org/dc/elements/1.1/title> "The Raven" .
+  <http://demo/book1> <http://purl.org/dc/elements/1.1/creator> "Edgar Allan Poe" .
+
+}
