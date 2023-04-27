@@ -162,4 +162,12 @@ Using CONSTRUCT to generate graphs (instead of lists)
       ?blog <http://test/predicates/title> ?title .
     }
 
+## CURL with password
+```
+curl -uadmin:password -X POST -d "query=select count {?s ?p ?o}" c3035bc5bd70:3030/ds/query
+curl -uadmin:password -X POST -d "query= PREFIX pe: <https://pe> SELECT * {pe:one ?p ?o}" c3035bc5bd70:3030/ds/query
+curl -uadmin:password -X POST -d "update=PREFIX pe: <https://pe> INSERT DATA { pe:one pe:lives <http://www.here.com>}" http://c3035bc5bd70:3030/ds/update  -v
+
+```
+
 
